@@ -1,0 +1,112 @@
+.ota {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bola {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.body {
+    background-color: black;
+}
+
+@media (max-width:1237px) {
+    .ota {
+        flex-wrap: wrap;
+    }
+
+    .bola {
+        background-color: blue;
+        margin: 15px auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    .body {
+        background-color: yellow;
+    }
+
+}
+
+@media (max-width:1065px) {
+    .ota {
+        flex-wrap: wrap;
+    }
+    .bola {
+        background-color: black;
+        margin: 15px auto;
+        width: 400px;
+        height: 350px;
+        font-weight: 1000;
+        color: #fff;
+    }
+
+    .body {
+        background-color: red;
+    }
+
+}
+
+@media (max-width:919px) {
+    .ota {
+        flex-wrap: wrap;
+    }
+    .bola {
+        background-color: rgb(56, 56, 239);
+        margin: 15px auto;
+        width: 300px;
+        height: 250px;
+        font-weight: 1000;
+        color: #fff;
+    }
+
+    .body {
+        background-color: yellow;
+    }
+
+}
+
+@media (max-width:756px) {
+    .ota {
+        flex-wrap: wrap;
+    }
+    .bola {
+        background-color: rgb(218, 85, 14);
+        margin: 15px auto;
+        width: 300px;
+        height: 250px;
+        font-weight: 1000;
+        color: #fff;
+    }
+
+    .body {
+        background-color: rgb(157, 20, 120);
+    }
+
+}
+@media (max-width:485px) {
+    .ota {
+        flex-wrap: wrap;
+    }
+    .bola {
+        background-color: rgb(218, 85, 14);
+        margin: 15px auto;
+        width: 300px;
+        height: 250px;
+        font-weight: 1000;
+        color: #fff;
+    }
+
+    .body {
+        background-color: rgb(157, 20, 120);
+    }
+
+}
